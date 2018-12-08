@@ -1,6 +1,6 @@
 const { usersURL } = process.env;
 
-const fetchUsers = async () => await (await fetch(usersURL)).json();
+const fetchUsers = async () => await (await fetch(USERS_URL)).json();
 
 fetchUsers().then(data => {
 	userList = document.querySelector('#users');
