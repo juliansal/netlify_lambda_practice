@@ -1,0 +1,21 @@
+{
+	"name": "netlify_lambda",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lamb-serve": "netlify-lambda serve functions",
+		"lamb-build": "netlify-lambda build functions"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"prettier": {
+		"tabWidth": 4,
+		"useTabs": true
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"netlify-lambda": "^1.1.0"
+	}
+}
